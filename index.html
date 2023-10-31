@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입 페이지</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <form id="signup-form" action="/signup" method="post">
+        <input type="text" id="username" name="username" placeholder="아이디" required>
+        <input type="password" id="password" name="password" placeholder="비밀번호" required>
+        <input type="email" id="email" name="email" placeholder="이메일" required>
+        <input type="tel" id="phone" name="phone" placeholder="휴대폰 번호" required>
+        <button type="submit">가입하기</button>
+    </form>
+    <div id="response"></div>
+</body>
+<script src="signup.js" type="application/javacript"></script>
+</body>
+</html>
